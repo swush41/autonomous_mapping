@@ -5,8 +5,10 @@ Autonomous_Mapping
 if the scraper definition of a model is = **Volvo V90 B4 Inscription Geartronic** 
 then the return of the function will be: (with an id suggested that matches with our car data)
 
-[ 'volvo', 'v90', 'b4', 'd', 'geartronic', 'inscription' ] ---> the splitted version of a scraped data to match the given one above
+
 ```
+[ 'volvo', 'v90', 'b4', 'd', 'geartronic', 'inscription' ] ---> the splitted version of a scraped data to match the given one above
+
 [
   { name: 'volvo', matched: true },
   { name: 'v90', matched: true },
